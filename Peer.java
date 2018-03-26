@@ -35,7 +35,8 @@ public class Peer extends Thread {
 
 			try {
 				Thread.sleep(1000);
-			} catch (InterruptedException e) {
+			} 
+			catch (InterruptedException e) {
 				e.printStackTrace();
 			}
 		}
@@ -47,7 +48,8 @@ public class Peer extends Thread {
 		MessageDigest md = null;
 		try {
 			md = MessageDigest.getInstance("SHA-256");
-		} catch (NoSuchAlgorithmException e) {
+		} 
+		catch (NoSuchAlgorithmException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
