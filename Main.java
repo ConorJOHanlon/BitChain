@@ -35,15 +35,8 @@ public class Main {
 			Main.mutex.acquire();
 			peers.get(randomNum).addBlock();
 			Main.mutex.release();
-			
 			Thread.sleep(1000);
-			
-			
-		}
-		
-
-		
-		
+		}	
 	}
 
 }
